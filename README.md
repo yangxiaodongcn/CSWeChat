@@ -6,7 +6,7 @@ CSWeChat - A WeChat alternative, written in Swift.
 - Xcode 8+
 
 ## Preview
-Run `pod install` in the `Terminal` and then run `TSWeChat.xcworkspace` to see all the views.
+Run `pod install` in the `Terminal` and then run `CSWeChat.xcworkspace` to see all the views.
 
 ## To Do
 - And so on...
