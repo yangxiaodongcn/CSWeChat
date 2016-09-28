@@ -14,6 +14,8 @@
 		CB14CF261D9AAD24003C21BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB14CF241D9AAD24003C21BF /* LaunchScreen.storyboard */; };
 		CB14CF311D9AAD25003C21BF /* CSWeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14CF301D9AAD25003C21BF /* CSWeChatTests.swift */; };
 		CB14CF3C1D9AAD25003C21BF /* CSWeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14CF3B1D9AAD25003C21BF /* CSWeChatUITests.swift */; };
+		CB4DEFC71D9BA1020074CACA /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC61D9BA1020074CACA /* Expression.bundle */; };
+		CB4DEFC91D9BA1330074CACA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC81D9BA1330074CACA /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +37,21 @@
 
 /* Begin PBXFileReference section */
 		CB14CF181D9AAD24003C21BF /* CSWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB14CF1B1D9AAD24003C21BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB14CF1D1D9AAD24003C21BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB14CF1B1D9AAD24003C21BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		CB14CF1D1D9AAD24003C21BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		CB14CF201D9AAD24003C21BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB14CF221D9AAD24003C21BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB14CF221D9AAD24003C21BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		CB14CF251D9AAD24003C21BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB14CF271D9AAD24003C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB14CF271D9AAD24003C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		CB14CF2C1D9AAD25003C21BF /* CSWeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSWeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB14CF301D9AAD25003C21BF /* CSWeChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSWeChatTests.swift; sourceTree = "<group>"; };
 		CB14CF321D9AAD25003C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB14CF371D9AAD25003C21BF /* CSWeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSWeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB14CF3B1D9AAD25003C21BF /* CSWeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSWeChatUITests.swift; sourceTree = "<group>"; };
 		CB14CF3D1D9AAD25003C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4DEFC11D9B9E340074CACA /* CSWeChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSWeChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB4DEFC61D9BA1020074CACA /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
+		CB4DEFC81D9BA1330074CACA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +102,12 @@
 		CB14CF1A1D9AAD24003C21BF /* CSWeChat */ = {
 			isa = PBXGroup;
 			children = (
-				CB14CF1B1D9AAD24003C21BF /* AppDelegate.swift */,
-				CB14CF1D1D9AAD24003C21BF /* ViewController.swift */,
-				CB14CF1F1D9AAD24003C21BF /* Main.storyboard */,
-				CB14CF221D9AAD24003C21BF /* Assets.xcassets */,
-				CB14CF241D9AAD24003C21BF /* LaunchScreen.storyboard */,
-				CB14CF271D9AAD24003C21BF /* Info.plist */,
+				CB4DEFA31D9B9E040074CACA /* Config */,
+				CB4DEFA71D9B9E040074CACA /* Expand */,
+				CB4DEFAC1D9B9E040074CACA /* Main */,
+				CB4DEFAD1D9B9E040074CACA /* Resource */,
+				CB4DEFB31D9B9E040074CACA /* Section */,
+				CB4DEFC01D9B9E040074CACA /* Vendor */,
 			);
 			path = CSWeChat;
 			sourceTree = "<group>";
@@ -123,6 +128,249 @@
 				CB14CF3D1D9AAD25003C21BF /* Info.plist */,
 			);
 			path = CSWeChatUITests;
+			sourceTree = "<group>";
+		};
+		CB4DEFA31D9B9E040074CACA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFA41D9B9E040074CACA /* Const */,
+				CB4DEFA51D9B9E040074CACA /* Macro */,
+				CB4DEFA61D9B9E040074CACA /* Theme */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CB4DEFA41D9B9E040074CACA /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		CB4DEFA51D9B9E040074CACA /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		CB4DEFA61D9B9E040074CACA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CB4DEFA71D9B9E040074CACA /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFA81D9B9E040074CACA /* Database */,
+				CB4DEFA91D9B9E040074CACA /* Extension */,
+				CB4DEFAA1D9B9E040074CACA /* Helper */,
+				CB4DEFAB1D9B9E040074CACA /* Network */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		CB4DEFA81D9B9E040074CACA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CB4DEFA91D9B9E040074CACA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CB4DEFAA1D9B9E040074CACA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CB4DEFAB1D9B9E040074CACA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CB4DEFAC1D9B9E040074CACA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB14CF241D9AAD24003C21BF /* LaunchScreen.storyboard */,
+				CB14CF1F1D9AAD24003C21BF /* Main.storyboard */,
+				CB14CF271D9AAD24003C21BF /* Info.plist */,
+				CB14CF1B1D9AAD24003C21BF /* AppDelegate.swift */,
+				CB14CF1D1D9AAD24003C21BF /* ViewController.swift */,
+				CB4DEFC11D9B9E340074CACA /* CSWeChat-Bridging-Header.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CB4DEFAD1D9B9E040074CACA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFC61D9BA1020074CACA /* Expression.bundle */,
+				CB4DEFC81D9BA1330074CACA /* Media.xcassets */,
+				CB14CF221D9AAD24003C21BF /* Assets.xcassets */,
+				CB4DEFAE1D9B9E040074CACA /* Audio */,
+				CB4DEFAF1D9B9E040074CACA /* File */,
+				CB4DEFB01D9B9E040074CACA /* Font */,
+				CB4DEFB11D9B9E040074CACA /* Json */,
+				CB4DEFB21D9B9E040074CACA /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB4DEFAE1D9B9E040074CACA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CB4DEFAF1D9B9E040074CACA /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		CB4DEFB01D9B9E040074CACA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CB4DEFB11D9B9E040074CACA /* Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CB4DEFB21D9B9E040074CACA /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		CB4DEFB31D9B9E040074CACA /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFB41D9B9E040074CACA /* Advert */,
+				CB4DEFB81D9B9E040074CACA /* Base */,
+				CB4DEFBC1D9B9E040074CACA /* Guide */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		CB4DEFB41D9B9E040074CACA /* Advert */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFB51D9B9E040074CACA /* Controller */,
+				CB4DEFB61D9B9E040074CACA /* Model */,
+				CB4DEFB71D9B9E040074CACA /* View */,
+			);
+			path = Advert;
+			sourceTree = "<group>";
+		};
+		CB4DEFB51D9B9E040074CACA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB4DEFB61D9B9E040074CACA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4DEFB71D9B9E040074CACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB4DEFB81D9B9E040074CACA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFB91D9B9E040074CACA /* Controller */,
+				CB4DEFBA1D9B9E040074CACA /* Model */,
+				CB4DEFBB1D9B9E040074CACA /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CB4DEFB91D9B9E040074CACA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB4DEFBA1D9B9E040074CACA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4DEFBB1D9B9E040074CACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB4DEFBC1D9B9E040074CACA /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DEFBD1D9B9E040074CACA /* Controller */,
+				CB4DEFBE1D9B9E040074CACA /* Model */,
+				CB4DEFBF1D9B9E040074CACA /* View */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		CB4DEFBD1D9B9E040074CACA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB4DEFBE1D9B9E040074CACA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4DEFBF1D9B9E040074CACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB4DEFC01D9B9E040074CACA /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +441,8 @@
 				TargetAttributes = {
 					CB14CF171D9AAD24003C21BF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8C4E67LN8W;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					CB14CF2B1D9AAD25003C21BF = {
@@ -232,8 +482,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4DEFC91D9BA1330074CACA /* Media.xcassets in Resources */,
 				CB14CF261D9AAD24003C21BF /* LaunchScreen.storyboard in Resources */,
 				CB14CF231D9AAD24003C21BF /* Assets.xcassets in Resources */,
+				CB4DEFC71D9BA1020074CACA /* Expression.bundle in Resources */,
 				CB14CF211D9AAD24003C21BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +554,7 @@
 				CB14CF201D9AAD24003C21BF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CB14CF241D9AAD24003C21BF /* LaunchScreen.storyboard */ = {
@@ -310,6 +563,7 @@
 				CB14CF251D9AAD24003C21BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,11 +664,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8C4E67LN8W;
 				INFOPLIST_FILE = CSWeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodongcn.CSWeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSWeChat/Main/CSWeChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -423,11 +682,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8C4E67LN8W;
 				INFOPLIST_FILE = CSWeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodongcn.CSWeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSWeChat/Main/CSWeChat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +768,7 @@
 				CB14CF421D9AAD25003C21BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB14CF431D9AAD25003C21BF /* Build configuration list for PBXNativeTarget "CSWeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +777,7 @@
 				CB14CF451D9AAD25003C21BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB14CF461D9AAD25003C21BF /* Build configuration list for PBXNativeTarget "CSWeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +786,7 @@
 				CB14CF481D9AAD25003C21BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
