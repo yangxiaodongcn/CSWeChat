@@ -12,6 +12,12 @@ class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let meController = MeViewController.initFromNib()
+        let discoverController = DiscoverViewController.initFromNib()
+        
+        self.viewControllers = [discoverController, meController]
+        
 
         // Do any additional setup after loading the view.
     }

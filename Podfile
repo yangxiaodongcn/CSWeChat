@@ -10,6 +10,7 @@ target 'CSWeChat' do
   pod 'SwiftyJSON'
   pod 'XCGLogger'
   pod 'BSImagePicker'
+  pod 'UIColor_Hex_Swift'
 
   #Objective-C
   pod 'SVProgressHUD'

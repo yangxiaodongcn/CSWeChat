@@ -1,5 +1,5 @@
 //
-//  UIImage+WeChat.swift
+//  UIImage+Extension.swift
 //  CSWeChat
 //
 //  Created by 杨晓冬 on 9/29/16.

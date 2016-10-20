@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MeTableViewCell" customModule="CSWeChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="moN-jY-SIL">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="moN-jY-SIL" secondAttribute="height" id="XjV-RS-ZBn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HilenLai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJM-lF-lq4">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GGT-SK-lNl">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="6KF-mN-IPO"/>
+                            <constraint firstAttribute="height" constant="18" id="YoJ-9f-ZjV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="微信号：hilenlai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnL-73-BN2">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GGT-SK-lNl" firstAttribute="leading" secondItem="sJM-lF-lq4" secondAttribute="trailing" constant="8" id="3ga-gS-KOw"/>
+                    <constraint firstItem="moN-jY-SIL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Iai-DR-gQA"/>
+                    <constraint firstItem="vnL-73-BN2" firstAttribute="top" secondItem="sJM-lF-lq4" secondAttribute="bottom" constant="8" id="JoZ-cc-2QC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vnL-73-BN2" secondAttribute="trailing" constant="26" id="PL7-az-gtw"/>
+                    <constraint firstItem="GGT-SK-lNl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PaD-90-Bw3"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vnL-73-BN2" secondAttribute="bottom" constant="8" id="VVP-LW-Zhp"/>
+                    <constraint firstItem="vnL-73-BN2" firstAttribute="leading" secondItem="moN-jY-SIL" secondAttribute="trailing" constant="8" id="bYP-hL-1j7"/>
+                    <constraint firstItem="GGT-SK-lNl" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="eDD-ti-Z6N"/>
+                    <constraint firstItem="sJM-lF-lq4" firstAttribute="leading" secondItem="moN-jY-SIL" secondAttribute="trailing" constant="8" id="er1-bn-2M9"/>
+                    <constraint firstItem="moN-jY-SIL" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="tAz-0G-Myu"/>
+                    <constraint firstItem="sJM-lF-lq4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="uqx-bF-xLO"/>
+                    <constraint firstItem="moN-jY-SIL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="yth-TE-cJB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="meImageView" destination="moN-jY-SIL" id="MJk-Xi-TWO"/>
+                <outlet property="nicknameLabel" destination="sJM-lF-lq4" id="kHZ-3m-P3O"/>
+                <outlet property="wechatIDLabel" destination="vnL-73-BN2" id="Zim-lN-RId"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Kenny.jpg" width="748" height="748"/>
+    </resources>
+</document>

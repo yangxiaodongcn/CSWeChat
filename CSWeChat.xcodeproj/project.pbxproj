@@ -8,15 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		A5471766390A461173118C28 /* Pods_CSWeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A405C1AFB74859C6E343E9C7 /* Pods_CSWeChat.framework */; };
-		CB01562F1D9C9A5200E013D8 /* UIImage+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB01562E1D9C9A5200E013D8 /* UIImage+WeChat.swift */; };
+		CB01562F1D9C9A5200E013D8 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB01562E1D9C9A5200E013D8 /* UIImage+Extension.swift */; };
 		CB0156361D9CA8D000E013D8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0156351D9CA8D000E013D8 /* MainTabBarController.swift */; };
 		CB14CF1C1D9AAD24003C21BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14CF1B1D9AAD24003C21BF /* AppDelegate.swift */; };
 		CB14CF1E1D9AAD24003C21BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14CF1D1D9AAD24003C21BF /* ViewController.swift */; };
 		CB14CF231D9AAD24003C21BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB14CF221D9AAD24003C21BF /* Assets.xcassets */; };
 		CB14CF311D9AAD25003C21BF /* CSWeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14CF301D9AAD25003C21BF /* CSWeChatTests.swift */; };
 		CB14CF3C1D9AAD25003C21BF /* CSWeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14CF3B1D9AAD25003C21BF /* CSWeChatUITests.swift */; };
+		CB42D8891DAB1EC80003E391 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB42D8871DAB1EC80003E391 /* DiscoverViewController.swift */; };
+		CB42D88A1DAB1EC80003E391 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB42D8881DAB1EC80003E391 /* DiscoverViewController.xib */; };
+		CB46E0481D9E0CDA004B8C2A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */; };
+		CB46E04A1D9E13D0004B8C2A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0491D9E13D0004B8C2A /* UIView+Extension.swift */; };
+		CB46E04C1D9E3EAF004B8C2A /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E04B1D9E3EAF004B8C2A /* NSObject+Extension.swift */; };
+		CB46E04F1D9E45A8004B8C2A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E04E1D9E45A8004B8C2A /* Logger.swift */; };
+		CB46E0521D9E6807004B8C2A /* ImageTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0501D9E6807004B8C2A /* ImageTextTableViewCell.swift */; };
+		CB46E0531D9E6807004B8C2A /* ImageTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */; };
+		CB46E0551D9E6B77004B8C2A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0541D9E6B77004B8C2A /* UIViewController+Extension.swift */; };
 		CB4DEFC71D9BA1020074CACA /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC61D9BA1020074CACA /* Expression.bundle */; };
 		CB4DEFC91D9BA1330074CACA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC81D9BA1330074CACA /* Media.xcassets */; };
+		CBB8E7971DB476B700A8822F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E7951DB476B700A8822F /* ContactViewController.swift */; };
+		CBB8E7981DB476B700A8822F /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8E7961DB476B700A8822F /* ContactViewController.xib */; };
+		CBB8E79B1DB47C5D00A8822F /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */; };
+		CBB8E79C1DB47C5D00A8822F /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8E79A1DB47C5D00A8822F /* ContactTableViewCell.xib */; };
+		CBD8E7381D9D05CD006BF175 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8E7361D9D05CD006BF175 /* MeViewController.swift */; };
+		CBD8E7391D9D05CD006BF175 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD8E7371D9D05CD006BF175 /* MeViewController.xib */; };
+		CBD8E73C1D9D091B006BF175 /* MeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */; };
+		CBD8E73D1D9D091B006BF175 /* MeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD8E73B1D9D091B006BF175 /* MeTableViewCell.xib */; };
+		CBD8E7401D9D0F75006BF175 /* Kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBD8E73F1D9D0F75006BF175 /* Kenny.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +58,7 @@
 		6EC8190CF5D9C148E5972C44 /* Pods-CSWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSWeChat/Pods-CSWeChat.release.xcconfig"; sourceTree = "<group>"; };
 		90D1FB789CC3BDD039C229F4 /* Pods-CSWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSWeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSWeChat/Pods-CSWeChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A405C1AFB74859C6E343E9C7 /* Pods_CSWeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSWeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB01562E1D9C9A5200E013D8 /* UIImage+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+WeChat.swift"; sourceTree = "<group>"; };
+		CB01562E1D9C9A5200E013D8 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		CB0156331D9CA7F800E013D8 /* CSWeChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSWeChat-Bridging-Header.h"; sourceTree = "<group>"; };
 		CB0156351D9CA8D000E013D8 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CB14CF181D9AAD24003C21BF /* CSWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +72,26 @@
 		CB14CF371D9AAD25003C21BF /* CSWeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSWeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB14CF3B1D9AAD25003C21BF /* CSWeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSWeChatUITests.swift; sourceTree = "<group>"; };
 		CB14CF3D1D9AAD25003C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB42D8871DAB1EC80003E391 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		CB42D8881DAB1EC80003E391 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CB46E0491D9E13D0004B8C2A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CB46E04B1D9E3EAF004B8C2A /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		CB46E04E1D9E45A8004B8C2A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		CB46E0501D9E6807004B8C2A /* ImageTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextTableViewCell.swift; sourceTree = "<group>"; };
+		CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTextTableViewCell.xib; sourceTree = "<group>"; };
+		CB46E0541D9E6B77004B8C2A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CB4DEFC61D9BA1020074CACA /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
 		CB4DEFC81D9BA1330074CACA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CBB8E7951DB476B700A8822F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CBB8E7961DB476B700A8822F /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		CBB8E79A1DB47C5D00A8822F /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		CBD8E7361D9D05CD006BF175 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		CBD8E7371D9D05CD006BF175 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewCell.swift; sourceTree = "<group>"; };
+		CBD8E73B1D9D091B006BF175 /* MeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeTableViewCell.xib; sourceTree = "<group>"; };
+		CBD8E73F1D9D0F75006BF175 /* Kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,125 +194,49 @@
 		CB23835A1D9CB85600CA9373 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				CB23835B1D9CB85600CA9373 /* Controller */,
-				CB23835C1D9CB85600CA9373 /* Model */,
-				CB23835D1D9CB85600CA9373 /* View */,
+				CBB8E7951DB476B700A8822F /* ContactViewController.swift */,
+				CBB8E7961DB476B700A8822F /* ContactViewController.xib */,
+				CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */,
+				CBB8E79A1DB47C5D00A8822F /* ContactTableViewCell.xib */,
 			);
 			path = Contact;
-			sourceTree = "<group>";
-		};
-		CB23835B1D9CB85600CA9373 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CB23835C1D9CB85600CA9373 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CB23835D1D9CB85600CA9373 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CB23835E1D9CB86100CA9373 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				CB23835F1D9CB86100CA9373 /* Controller */,
-				CB2383601D9CB86100CA9373 /* Model */,
-				CB2383611D9CB86100CA9373 /* View */,
+				CB42D8871DAB1EC80003E391 /* DiscoverViewController.swift */,
+				CB42D8881DAB1EC80003E391 /* DiscoverViewController.xib */,
 			);
 			path = Discover;
-			sourceTree = "<group>";
-		};
-		CB23835F1D9CB86100CA9373 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CB2383601D9CB86100CA9373 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CB2383611D9CB86100CA9373 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CB2383621D9CB86A00CA9373 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				CB2383631D9CB86A00CA9373 /* Controller */,
-				CB2383641D9CB86A00CA9373 /* Model */,
-				CB2383651D9CB86A00CA9373 /* View */,
+				CBD8E7361D9D05CD006BF175 /* MeViewController.swift */,
+				CBD8E7371D9D05CD006BF175 /* MeViewController.xib */,
+				CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */,
+				CBD8E73B1D9D091B006BF175 /* MeTableViewCell.xib */,
+				CB46E0501D9E6807004B8C2A /* ImageTextTableViewCell.swift */,
+				CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */,
 			);
 			path = Me;
-			sourceTree = "<group>";
-		};
-		CB2383631D9CB86A00CA9373 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CB2383641D9CB86A00CA9373 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CB2383651D9CB86A00CA9373 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CB2383661D9CB87100CA9373 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				CB2383671D9CB87100CA9373 /* Controller */,
-				CB2383681D9CB87100CA9373 /* Model */,
-				CB2383691D9CB87100CA9373 /* View */,
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		CB2383671D9CB87100CA9373 /* Controller */ = {
+		CB46E04D1D9E458E004B8C2A /* Logger */ = {
 			isa = PBXGroup;
 			children = (
+				CB46E04E1D9E45A8004B8C2A /* Logger.swift */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CB2383681D9CB87100CA9373 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CB2383691D9CB87100CA9373 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
+			path = Logger;
 			sourceTree = "<group>";
 		};
 		CB4DEFA31D9B9E040074CACA /* Config */ = {
@@ -313,6 +273,7 @@
 		CB4DEFA71D9B9E040074CACA /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				CB46E04D1D9E458E004B8C2A /* Logger */,
 				CB4DEFA81D9B9E040074CACA /* Database */,
 				CB4DEFA91D9B9E040074CACA /* Extension */,
 				CB4DEFAA1D9B9E040074CACA /* Helper */,
@@ -331,7 +292,11 @@
 		CB4DEFA91D9B9E040074CACA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CB01562E1D9C9A5200E013D8 /* UIImage+WeChat.swift */,
+				CB01562E1D9C9A5200E013D8 /* UIImage+Extension.swift */,
+				CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */,
+				CB46E0491D9E13D0004B8C2A /* UIView+Extension.swift */,
+				CB46E04B1D9E3EAF004B8C2A /* NSObject+Extension.swift */,
+				CB46E0541D9E6B77004B8C2A /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -366,6 +331,7 @@
 				CB4DEFC61D9BA1020074CACA /* Expression.bundle */,
 				CB4DEFC81D9BA1330074CACA /* Media.xcassets */,
 				CB14CF221D9AAD24003C21BF /* Assets.xcassets */,
+				CBD8E73E1D9D0F4B006BF175 /* Image */,
 				CB4DEFAE1D9B9E040074CACA /* Audio */,
 				CB4DEFAF1D9B9E040074CACA /* File */,
 				CB4DEFB01D9B9E040074CACA /* Font */,
@@ -524,6 +490,14 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
+		CBD8E73E1D9D0F4B006BF175 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CBD8E73F1D9D0F75006BF175 /* Kenny.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		CCD26777AA2FDFA10CB6EBBD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -604,7 +578,6 @@
 				TargetAttributes = {
 					CB14CF171D9AAD24003C21BF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 8C4E67LN8W;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -645,9 +618,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB46E0531D9E6807004B8C2A /* ImageTextTableViewCell.xib in Resources */,
+				CBB8E7981DB476B700A8822F /* ContactViewController.xib in Resources */,
+				CB42D88A1DAB1EC80003E391 /* DiscoverViewController.xib in Resources */,
+				CBD8E73D1D9D091B006BF175 /* MeTableViewCell.xib in Resources */,
 				CB4DEFC91D9BA1330074CACA /* Media.xcassets in Resources */,
 				CB14CF231D9AAD24003C21BF /* Assets.xcassets in Resources */,
+				CBD8E7391D9D05CD006BF175 /* MeViewController.xib in Resources */,
 				CB4DEFC71D9BA1020074CACA /* Expression.bundle in Resources */,
+				CBB8E79C1DB47C5D00A8822F /* ContactTableViewCell.xib in Resources */,
+				CBD8E7401D9D0F75006BF175 /* Kenny.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,10 +700,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB46E0551D9E6B77004B8C2A /* UIViewController+Extension.swift in Sources */,
+				CBB8E7971DB476B700A8822F /* ContactViewController.swift in Sources */,
+				CBD8E7381D9D05CD006BF175 /* MeViewController.swift in Sources */,
+				CBD8E73C1D9D091B006BF175 /* MeTableViewCell.swift in Sources */,
+				CB46E04C1D9E3EAF004B8C2A /* NSObject+Extension.swift in Sources */,
+				CB46E04A1D9E13D0004B8C2A /* UIView+Extension.swift in Sources */,
+				CBB8E79B1DB47C5D00A8822F /* ContactTableViewCell.swift in Sources */,
+				CB42D8891DAB1EC80003E391 /* DiscoverViewController.swift in Sources */,
+				CB46E0521D9E6807004B8C2A /* ImageTextTableViewCell.swift in Sources */,
 				CB14CF1E1D9AAD24003C21BF /* ViewController.swift in Sources */,
+				CB46E04F1D9E45A8004B8C2A /* Logger.swift in Sources */,
 				CB14CF1C1D9AAD24003C21BF /* AppDelegate.swift in Sources */,
 				CB0156361D9CA8D000E013D8 /* MainTabBarController.swift in Sources */,
-				CB01562F1D9C9A5200E013D8 /* UIImage+WeChat.swift in Sources */,
+				CB46E0481D9E0CDA004B8C2A /* UIColor+Extension.swift in Sources */,
+				CB01562F1D9C9A5200E013D8 /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,11 +847,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90D1FB789CC3BDD039C229F4 /* Pods-CSWeChat.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 8C4E67LN8W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CSWeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -876,11 +867,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EC8190CF5D9C148E5972C44 /* Pods-CSWeChat.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 8C4E67LN8W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CSWeChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
