@@ -28,7 +28,7 @@ class DiscoverViewController: UIViewController {
         self.tabBarItem!.selectedImage = Asset.Tabbar_discoverHL.image
         self.view.backgroundColor = UIColor(colorNamed: CSColor.viewBackgroundColor)
         
-        self.listTableView.register(ImageTextTableViewCell.NibObject(), forCellReuseIdentifier: ImageTextTableViewCell.identifier)
+        self.listTableView.register(ImageTextTableViewCell.nibObject(), forCellReuseIdentifier: ImageTextTableViewCell.identifier)
         self.listTableView.estimatedRowHeight = 44
         self.listTableView.tableFooterView = UIView()
 

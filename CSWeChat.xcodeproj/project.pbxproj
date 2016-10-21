@@ -18,18 +18,16 @@
 		CB42D8891DAB1EC80003E391 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB42D8871DAB1EC80003E391 /* DiscoverViewController.swift */; };
 		CB42D88A1DAB1EC80003E391 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB42D8881DAB1EC80003E391 /* DiscoverViewController.xib */; };
 		CB46E0481D9E0CDA004B8C2A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */; };
-		CB46E04A1D9E13D0004B8C2A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0491D9E13D0004B8C2A /* UIView+Extension.swift */; };
-		CB46E04C1D9E3EAF004B8C2A /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E04B1D9E3EAF004B8C2A /* NSObject+Extension.swift */; };
 		CB46E04F1D9E45A8004B8C2A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E04E1D9E45A8004B8C2A /* Logger.swift */; };
 		CB46E0521D9E6807004B8C2A /* ImageTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0501D9E6807004B8C2A /* ImageTextTableViewCell.swift */; };
 		CB46E0531D9E6807004B8C2A /* ImageTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */; };
-		CB46E0551D9E6B77004B8C2A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E0541D9E6B77004B8C2A /* UIViewController+Extension.swift */; };
 		CB4DEFC71D9BA1020074CACA /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC61D9BA1020074CACA /* Expression.bundle */; };
 		CB4DEFC91D9BA1330074CACA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC81D9BA1330074CACA /* Media.xcassets */; };
 		CBB8E7971DB476B700A8822F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E7951DB476B700A8822F /* ContactViewController.swift */; };
 		CBB8E7981DB476B700A8822F /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8E7961DB476B700A8822F /* ContactViewController.xib */; };
 		CBB8E79B1DB47C5D00A8822F /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */; };
 		CBB8E79C1DB47C5D00A8822F /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8E79A1DB47C5D00A8822F /* ContactTableViewCell.xib */; };
+		CBB9D3601DBA19F600B41157 /* iOSAppBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB9D35F1DBA19F600B41157 /* iOSAppBase.framework */; };
 		CBD8E7381D9D05CD006BF175 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8E7361D9D05CD006BF175 /* MeViewController.swift */; };
 		CBD8E7391D9D05CD006BF175 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD8E7371D9D05CD006BF175 /* MeViewController.xib */; };
 		CBD8E73C1D9D091B006BF175 /* MeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */; };
@@ -75,18 +73,16 @@
 		CB42D8871DAB1EC80003E391 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		CB42D8881DAB1EC80003E391 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
 		CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		CB46E0491D9E13D0004B8C2A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		CB46E04B1D9E3EAF004B8C2A /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		CB46E04E1D9E45A8004B8C2A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		CB46E0501D9E6807004B8C2A /* ImageTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextTableViewCell.swift; sourceTree = "<group>"; };
 		CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTextTableViewCell.xib; sourceTree = "<group>"; };
-		CB46E0541D9E6B77004B8C2A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CB4DEFC61D9BA1020074CACA /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
 		CB4DEFC81D9BA1330074CACA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		CBB8E7951DB476B700A8822F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		CBB8E7961DB476B700A8822F /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
 		CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		CBB8E79A1DB47C5D00A8822F /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		CBB9D35F1DBA19F600B41157 /* iOSAppBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSAppBase.framework; path = "../iOSAppBase/iOSAppBase/build/Debug-iphoneos/iOSAppBase.framework"; sourceTree = "<group>"; };
 		CBD8E7361D9D05CD006BF175 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		CBD8E7371D9D05CD006BF175 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
 		CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewCell.swift; sourceTree = "<group>"; };
@@ -99,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB9D3601DBA19F600B41157 /* iOSAppBase.framework in Frameworks */,
 				A5471766390A461173118C28 /* Pods_CSWeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +120,7 @@
 		210FEB52DAAC8843D28AFC0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBB9D35F1DBA19F600B41157 /* iOSAppBase.framework */,
 				A405C1AFB74859C6E343E9C7 /* Pods_CSWeChat.framework */,
 			);
 			name = Frameworks;
@@ -294,9 +292,6 @@
 			children = (
 				CB01562E1D9C9A5200E013D8 /* UIImage+Extension.swift */,
 				CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */,
-				CB46E0491D9E13D0004B8C2A /* UIView+Extension.swift */,
-				CB46E04B1D9E3EAF004B8C2A /* NSObject+Extension.swift */,
-				CB46E0541D9E6B77004B8C2A /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -700,12 +695,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB46E0551D9E6B77004B8C2A /* UIViewController+Extension.swift in Sources */,
 				CBB8E7971DB476B700A8822F /* ContactViewController.swift in Sources */,
 				CBD8E7381D9D05CD006BF175 /* MeViewController.swift in Sources */,
 				CBD8E73C1D9D091B006BF175 /* MeTableViewCell.swift in Sources */,
-				CB46E04C1D9E3EAF004B8C2A /* NSObject+Extension.swift in Sources */,
-				CB46E04A1D9E13D0004B8C2A /* UIView+Extension.swift in Sources */,
 				CBB8E79B1DB47C5D00A8822F /* ContactTableViewCell.swift in Sources */,
 				CB42D8891DAB1EC80003E391 /* DiscoverViewController.swift in Sources */,
 				CB46E0521D9E6807004B8C2A /* ImageTextTableViewCell.swift in Sources */,

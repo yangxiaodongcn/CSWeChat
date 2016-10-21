@@ -30,8 +30,8 @@ class MeViewController: UIViewController {
         self.tabBarItem!.selectedImage = Asset.Tabbar_meHL.image
         self.view.backgroundColor = UIColor(colorNamed: CSColor.viewBackgroundColor)
         
-        self.listTableView.register(MeTableViewCell.NibObject(), forCellReuseIdentifier: MeTableViewCell.identifier)
-        self.listTableView.register(ImageTextTableViewCell.NibObject(), forCellReuseIdentifier: ImageTextTableViewCell.identifier)
+        self.listTableView.register(MeTableViewCell.nibObject(), forCellReuseIdentifier: MeTableViewCell.identifier)
+        self.listTableView.register(ImageTextTableViewCell.nibObject(), forCellReuseIdentifier: ImageTextTableViewCell.identifier)
         self.listTableView.tableFooterView = UIView()
     }
 

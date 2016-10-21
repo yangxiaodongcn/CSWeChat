@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../iOSAppBase/iOSAppBase/iOSAppBase.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CSWeChat.xcodeproj">
    </FileRef>
    <FileRef
