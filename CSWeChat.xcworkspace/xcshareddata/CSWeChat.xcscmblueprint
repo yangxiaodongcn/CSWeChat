@@ -4,12 +4,12 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "ADFC218F93D0212884156EEFE388169E2ACF5DFA" : 9223372036854775807,
+    "62B5C66E6FD67254215AFEBA65F42EB743373154" : 9223372036854775807,
     "598B3E0C70B3F6D65CBD33262992AF1BB5FF7FD8" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "80F84DC5-A84C-4502-A4AE-34CE31A6E4B5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "ADFC218F93D0212884156EEFE388169E2ACF5DFA" : "iOSAppBase\/",
+    "62B5C66E6FD67254215AFEBA65F42EB743373154" : "iOSAppBase\/",
     "598B3E0C70B3F6D65CBD33262992AF1BB5FF7FD8" : "CSWeChat\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CSWeChat",
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yangxiaodongcn\/iOSAppBase.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ADFC218F93D0212884156EEFE388169E2ACF5DFA"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62B5C66E6FD67254215AFEBA65F42EB743373154"
     }
   ]
 }
