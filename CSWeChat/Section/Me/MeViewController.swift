@@ -25,9 +25,6 @@ class MeViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "我"
-        self.tabBarItem!.title = "我"
-        self.tabBarItem!.image = Asset.Tabbar_me.image
-        self.tabBarItem!.selectedImage = Asset.Tabbar_meHL.image
         self.view.backgroundColor = UIColor(colorNamed: CSColor.viewBackgroundColor)
         
         self.listTableView.register(MeTableViewCell.nibObject(), forCellReuseIdentifier: MeTableViewCell.identifier)

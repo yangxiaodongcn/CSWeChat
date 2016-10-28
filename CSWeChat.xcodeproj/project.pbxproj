@@ -23,6 +23,7 @@
 		CB46E0531D9E6807004B8C2A /* ImageTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */; };
 		CB4DEFC71D9BA1020074CACA /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC61D9BA1020074CACA /* Expression.bundle */; };
 		CB4DEFC91D9BA1330074CACA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4DEFC81D9BA1330074CACA /* Media.xcassets */; };
+		CB9557421DC0A743009CE680 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9557411DC0A743009CE680 /* UIImageView+Extension.swift */; };
 		CBB8E7971DB476B700A8822F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E7951DB476B700A8822F /* ContactViewController.swift */; };
 		CBB8E7981DB476B700A8822F /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8E7961DB476B700A8822F /* ContactViewController.xib */; };
 		CBB8E79B1DB47C5D00A8822F /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */; };
@@ -33,6 +34,8 @@
 		CBD8E73C1D9D091B006BF175 /* MeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */; };
 		CBD8E73D1D9D091B006BF175 /* MeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD8E73B1D9D091B006BF175 /* MeTableViewCell.xib */; };
 		CBD8E7401D9D0F75006BF175 /* Kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBD8E73F1D9D0F75006BF175 /* Kenny.jpg */; };
+		CBED99111DC055C200E2A407 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED99101DC055C200E2A407 /* ContactModel.swift */; };
+		CBED99131DC0567000E2A407 /* CSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED99121DC0567000E2A407 /* CSModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,7 @@
 		CB46E0511D9E6807004B8C2A /* ImageTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTextTableViewCell.xib; sourceTree = "<group>"; };
 		CB4DEFC61D9BA1020074CACA /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
 		CB4DEFC81D9BA1330074CACA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CB9557411DC0A743009CE680 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		CBB8E7951DB476B700A8822F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		CBB8E7961DB476B700A8822F /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
 		CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		CBD8E73A1D9D091B006BF175 /* MeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewCell.swift; sourceTree = "<group>"; };
 		CBD8E73B1D9D091B006BF175 /* MeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeTableViewCell.xib; sourceTree = "<group>"; };
 		CBD8E73F1D9D0F75006BF175 /* Kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpg; sourceTree = "<group>"; };
+		CBED99101DC055C200E2A407 /* ContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		CBED99121DC0567000E2A407 /* CSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,7 @@
 				CBB8E7961DB476B700A8822F /* ContactViewController.xib */,
 				CBB8E7991DB47C5C00A8822F /* ContactTableViewCell.swift */,
 				CBB8E79A1DB47C5D00A8822F /* ContactTableViewCell.xib */,
+				CBED99101DC055C200E2A407 /* ContactModel.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -291,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				CB01562E1D9C9A5200E013D8 /* UIImage+Extension.swift */,
+				CB9557411DC0A743009CE680 /* UIImageView+Extension.swift */,
 				CB46E0471D9E0CDA004B8C2A /* UIColor+Extension.swift */,
 			);
 			path = Extension;
@@ -436,6 +444,7 @@
 		CB4DEFBA1D9B9E040074CACA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBED99121DC0567000E2A407 /* CSModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -695,14 +704,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9557421DC0A743009CE680 /* UIImageView+Extension.swift in Sources */,
 				CBB8E7971DB476B700A8822F /* ContactViewController.swift in Sources */,
 				CBD8E7381D9D05CD006BF175 /* MeViewController.swift in Sources */,
 				CBD8E73C1D9D091B006BF175 /* MeTableViewCell.swift in Sources */,
 				CBB8E79B1DB47C5D00A8822F /* ContactTableViewCell.swift in Sources */,
 				CB42D8891DAB1EC80003E391 /* DiscoverViewController.swift in Sources */,
+				CBED99111DC055C200E2A407 /* ContactModel.swift in Sources */,
 				CB46E0521D9E6807004B8C2A /* ImageTextTableViewCell.swift in Sources */,
 				CB14CF1E1D9AAD24003C21BF /* ViewController.swift in Sources */,
 				CB46E04F1D9E45A8004B8C2A /* Logger.swift in Sources */,
+				CBED99131DC0567000E2A407 /* CSModel.swift in Sources */,
 				CB14CF1C1D9AAD24003C21BF /* AppDelegate.swift in Sources */,
 				CB0156361D9CA8D000E013D8 /* MainTabBarController.swift in Sources */,
 				CB46E0481D9E0CDA004B8C2A /* UIColor+Extension.swift in Sources */,
@@ -839,7 +851,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90D1FB789CC3BDD039C229F4 /* Pods-CSWeChat.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -859,7 +871,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EC8190CF5D9C148E5972C44 /* Pods-CSWeChat.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;

@@ -23,9 +23,6 @@ class DiscoverViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "发现"
-        self.tabBarItem!.title = "发现"
-        self.tabBarItem!.image = Asset.Tabbar_discover.image
-        self.tabBarItem!.selectedImage = Asset.Tabbar_discoverHL.image
         self.view.backgroundColor = UIColor(colorNamed: CSColor.viewBackgroundColor)
         
         self.listTableView.register(ImageTextTableViewCell.nibObject(), forCellReuseIdentifier: ImageTextTableViewCell.identifier)
