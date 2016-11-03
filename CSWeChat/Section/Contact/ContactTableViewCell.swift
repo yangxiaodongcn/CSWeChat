@@ -24,8 +24,9 @@ class ContactTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-//    func setCellContent(mode: ContactModel) {
-//        self.avatarImageView.
-//    }
+    func setCellContent(model: ContactModel) {
+        self.avatarImageView.setImageWithURLString(URLString: model.avatarSmallURL, placeholder: Asset.Icon_avatar.image)
+        self.userNameLabel.text = model.chineseName
+    }
     
 }

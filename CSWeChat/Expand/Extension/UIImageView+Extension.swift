@@ -39,21 +39,23 @@ public extension UIImageView {
         let memoryImage = KingfisherManager.shared.cache.retrieveImageInMemoryCache(forKey: URLString)
         let diskImage = KingfisherManager.shared.cache.retrieveImageInDiskCache(forKey: URLString)
         
-//        guard let image = memoryImage ?? diskImage else {
-//            let optionInfo: KingfisherOptionsInfo = [.forceRefresh]
-//            KingfisherManager.shared.downloader.downloadImage(with: url, options: optionInfo, progressBlock: progressBlock) {
-//                (image, error, imageURL, originalData) -> () in
-//                
-//                if let image = image, let originalData = originalData {
-//                    DispatchQueue.global().async {
-//                        let roundImage = image.kf.image(withRoundRadius: <#T##CGFloat#>, fit: <#T##CGSize#>, scale: <#T##CGFloat#>)
-//                    }
-//                }
-//            }
-//        }
-        
-        
-        
+        guard let image = memoryImage ?? diskImage else {
+            let optionInfo: KingfisherOptionsInfo = [.forceRefresh]
+            KingfisherManager.shared.downloader.downloadImage(with: url, options: optionInfo, progressBlock: progressBlock) {
+                (image, error, imageURL, originalData) -> () in
+                
+                if let image = image, let originalData = originalData {
+                    DispatchQueue.global().async {
+                        let roundImage = image.roundWithCornerRadius(cornerRadius: image.size.width * (cornerRadiusRatio ?? 0.5))
+                        KingfisherManager.shared.cache.store(roundImage, original: originalData, forKey: URLString, toDisk: true, completionHandler: {
+                            self.setImageWithURLString(URLString: URLString)
+                        })
+                    }
+                }
+            }
+            return
+        }
+        self.image = image
     }
 }
 

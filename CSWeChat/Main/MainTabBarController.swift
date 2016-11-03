@@ -14,8 +14,6 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         let discoverController = DiscoverViewController.initFromNib()
-        let meController = MeViewController.initFromNib()
-        
         discoverController.tabBarItem!.title = "发现"
         discoverController.tabBarItem!.image = Asset.Tabbar_discover.image
         discoverController.tabBarItem!.selectedImage = Asset.Tabbar_discoverHL.image
@@ -23,6 +21,7 @@ class MainTabBarController: UITabBarController {
         discoverController.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor(colorNamed: CSColor.tabbarSelectedTextColor)], for: .selected)
         let discoverNavigation = UINavigationController(rootViewController: discoverController)
         
+        let meController = MeViewController.initFromNib()
         meController.tabBarItem!.title = "我"
         meController.tabBarItem!.image = Asset.Tabbar_me.image
         meController.tabBarItem!.selectedImage = Asset.Tabbar_meHL.image
@@ -30,7 +29,16 @@ class MainTabBarController: UITabBarController {
         meController.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor(colorNamed: CSColor.tabbarSelectedTextColor)], for: .selected)
         let meNavigaion = UINavigationController(rootViewController: meController)
         
-        self.viewControllers = [discoverNavigation, meNavigaion]
+        let contactController = ContactViewController.initFromNib()
+        contactController.tabBarItem!.title = "通讯录"
+        contactController.tabBarItem!.image = Asset.Tabbar_contacts.image
+        contactController.tabBarItem!.selectedImage = Asset.Tabbar_contactsHL.image
+        contactController.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.lightGray], for: .normal)
+        contactController.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor(colorNamed: CSColor.tabbarSelectedTextColor)], for: .selected)
+        let contactNavigaion = UINavigationController(rootViewController: contactController)
+        
+        
+        self.viewControllers = [contactNavigaion, discoverNavigation, meNavigaion]
     }
 
     override func didReceiveMemoryWarning() {
