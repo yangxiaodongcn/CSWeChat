@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyJSON
+import iOSAppBase
 
 class ContactViewController: UIViewController {
     @IBOutlet weak var listTableView: UITableView!
